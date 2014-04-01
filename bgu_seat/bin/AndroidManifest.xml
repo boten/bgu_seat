@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nadav_boten.bgu_seat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chair_icon"
+        android:label="BGU seat"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nadav_boten.bgu_seat.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.nadav_boten.bgu_seat.Building_full_page"
+            android:label="@string/title_activity_building_full_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nadav_boten.bgu_seat.Cs_seats"
+            android:label="@string/title_activity_cs_seats"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity
+            android:name="com.nadav_boten.bgu_seat.SplashScreen"
+            android:label="BGU seat"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

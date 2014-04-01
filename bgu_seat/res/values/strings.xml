@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">מצא כיסא</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_building_full_page">תמונת מצב</string>
+    <string name="title_activity_cs_seats">מצא כיסא</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>
